@@ -70,7 +70,7 @@ class Actionssimple
 		{
 		  
 		  echo '<tr>
-		  	<td>Hook 208000</td><td colspan="'.$parameters['colspan'].'">Affichez ici le code postal du tiers du contact</td>
+		  	<td>Hook 208000</td><td colspan="'.$parameters['colspan'].'">'.var_dump($parameters).'</td>
 		  </tr>';
 		}
 
